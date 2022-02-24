@@ -14,6 +14,7 @@ namespace BookPediaApi.Models
         }
         public DbSet<Book> books { get; set; } // My domain models
         public DbSet<User> users { get; set; }// My domain models
+        public DbSet<Inventory> inventory { get; set; }// My domain models
 
     }
 }

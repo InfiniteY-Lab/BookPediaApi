@@ -170,6 +170,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InventoriesController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -203,8 +204,21 @@
     <Compile Include="Migrations\202202061630488_userUpdatedSqlv2.designer.cs">
       <DependentUpon>202202061630488_userUpdatedSqlv2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202141131546_inventoryClassAdd.cs" />
+    <Compile Include="Migrations\202202141131546_inventoryClassAdd.designer.cs">
+      <DependentUpon>202202141131546_inventoryClassAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202210649553_userUpdate.cs" />
+    <Compile Include="Migrations\202202210649553_userUpdate.designer.cs">
+      <DependentUpon>202202210649553_userUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202241735450_update-inventory.cs" />
+    <Compile Include="Migrations\202202241735450_update-inventory.designer.cs">
+      <DependentUpon>202202241735450_update-inventory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -313,6 +327,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202061630488_userUpdatedSqlv2.resx">
       <DependentUpon>202202061630488_userUpdatedSqlv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202141131546_inventoryClassAdd.resx">
+      <DependentUpon>202202141131546_inventoryClassAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202210649553_userUpdate.resx">
+      <DependentUpon>202202210649553_userUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202241735450_update-inventory.resx">
+      <DependentUpon>202202241735450_update-inventory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
